@@ -78,7 +78,7 @@ app.get('/weather', (req, res) => {
                     + ' It feels like ' 
                     +  fdata.feelsLike
                     + ' degress.'
-                    + ' Humidity is ' + fdata.humidity,
+                    + ' Humidity is ' + fdata.humidity + '%.',
                 location: place,
                 address: location
             }); 
